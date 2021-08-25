@@ -1,0 +1,109 @@
+body
+{
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.box
+{
+  width: 800px;
+  height: 600px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+/* Slogan */
+header > h1
+{
+  color: lime;
+  text-align: center;
+}
+
+/* Logo */
+div > img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+/* box dei pulsanti e posizionamento pulsanti */
+.contenitore
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: lime;
+}
+
+.prenota
+{
+  padding-right: 5px;
+}
+
+.prenotazione
+{
+  padding-right: 5px;
+}
+
+/* caratteristiche del testo nella sezione "Selezione Monopattini" */
+.Monopattini
+{
+  color: white;
+  padding-top: 10px;
+}
+
+/* distanza tra iltesto del nome del monopattino e l'indirizzo della posizione */
+.indirizzo
+{
+  font-weight: normal;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+/* simbolo della freccia */
+.indirizzo:before
+{
+  content: ' \21A6';
+}
+
+/* barra della carica del monopattino di Gino22 */
+.carica_gino
+{
+  width: 300px;
+  height: 10px;
+  background-color: orange;
+  border: solid 5px;
+  border-color: orange;
+  border-radius: 5px;
+}
+
+/* barra della carica del monopattino di Mike24 */
+.carica_mike
+{
+  width: 500px;
+  height: 10px;
+  background-color: lime;
+  border: solid 5px;
+  border-color: lime;
+  border-radius: 5px;
+}
+
+/* barra della carica del monopattino di Fede154 */
+.carica_fede
+{
+  width: 150px;
+  height: 10px;
+  background-color: red;
+  border: solid 5px;
+  border-color: red;
+  border-radius: 5px;
+}
